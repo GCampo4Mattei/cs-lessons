@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS teacher;
+
+CREATE TABLE teacher (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    cognome TEXT NOT NULL,
+    nome TEXT,
+    classeconcorso TEXT,
+    created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

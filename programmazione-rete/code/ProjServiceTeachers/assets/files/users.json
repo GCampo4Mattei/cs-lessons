@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "username": "nonnaPapera",
+      "password": "123456",
+      "age": "90",
+      "email": "np@email.com"
+    },
+    {
+      "username": "pippo",
+      "password": "secret",
+      "age": "74",
+      "email": "pippo@email.com"
+    },
+    {
+      "username": "topolino",
+      "password": "newsecret",
+      "age": "56",
+      "email": "topo4@email.com"
+    }
+  ]
+}

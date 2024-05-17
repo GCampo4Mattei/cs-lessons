@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% block main %}
+    <form action = "{{ url_for('add_teacher') }}" method = "POST">
+        <h3>Teacher Information</h3>
+        Name<br>
+        <input type = "text" name = "nm" /></br>
+
+        Surname<br>
+        <input type = "text" name = "srnm" /></br>
+        
+        <!-- Address<br>
+        <textarea name = "add" ></textarea><br> -->
+        
+        Classe concorso<br>
+        <input type = "text" name = "cc" /><br>
+        
+        <!-- PINCODE<br>
+        <input type = "text" name = "pin" /><br> -->
+        
+        <input type = "submit" value = "submit" /><br>
+     </form>
+     {% endblock %}
+</body>
+</html>
